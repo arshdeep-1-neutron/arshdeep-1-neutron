@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100&display=swap');
+
+html{
+
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0rem;
+}
+.section-1, .section-3{
+    background-color: rgb(255, 237, 214);
+    padding: 1rem;
+    height: 70rem;
+}
+.section-2{
+
+    background-color: rgb(255, 137, 59);
+    padding: 1rem;
+    height: 70rem;
+}
+
+.section-4{
+
+    background-color: rgb(255, 137, 59);
+    padding: 1rem;
+    height: 80rem;
+    padding-bottom: 6rem;
+}
+
+/*
+.section-3{
+
+    background-color: bisque;
+    padding: 10px;
+    height: 700px;
+}*/
+.intro-div{
+   
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 5rem auto;
+    padding: 2rem;
+    width: 90%;
+    height: 50rem;
+
+    text-align: center;
+    max-width: 110rem;
+    border-radius: .5rem;
+    /*background-color: rgb(255, 151, 65);*/
+    background-color: rgb(255, 137, 59);
+}
+
+.section2-div{
+   
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 5rem auto;
+    padding: 2rem;
+    width: 90%;
+    height: 50rem;
+
+    text-align: center;
+    max-width: 110rem;
+    border-radius: .5rem;
+    /*background-color: rgb(255, 151, 65);*/
+    background-color: rgb(255, 237, 214);
+}
+
+#img-sec-1{
+    border-radius: 1rem;
+    margin-top: 5rem;
+    width: 33%;
+    height: 30rem;
+}
+
+#my-name{
+    margin-top: 9rem;
+    font-size: 4.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#skill{
+
+    font-family: Bradley Hand ITC;
+    font-size: 2.5rem;
+    color:rgb(255, 255, 255);
+
+}
+
+.btn-top{
+
+    margin-top: 6rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.btnn{
+
+    width: 12rem;
+    height: 5rem;
+    border-radius: 3rem;
+    font-size: 1.8rem;
+    background-color: antiquewhite;
+    border-color: aliceblue;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-right: 5rem;
+
+}
+
+
+.about-me{
+
+    margin-top: 5rem;
+    width: 40%;
+    text-align: left;
+}
+
+#about-me-title{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    color: rgb(43, 40, 40);
+}
+
+#about-me-para{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6rem;
+    color: rgb(87, 86, 85);
+}
+
+.about-me-table{
+
+    margin-top: 6.7rem;
+    height: 32rem;
+    border: solid;
+    border-color: rgb(255, 146, 12);
+    border-left:1rem;
+    border-right:1rem;
+    
+}
+
+#basic-info{
+
+    margin-top: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: rgb(43, 40, 40);
+}
+
+.basic-info-table tr td{
+
+    text-align: left;
+    padding-right: 5rem;
+    padding-top: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+}
+
+.basic-info-table{
+
+    border-left:1rem;
+    border-right:1rem;
+    border-top:1rem;
+
+}
+
+
+.section3-div{
+
+    text-align: center;
+    display: block;
+}
+
+.education{
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info-bar-one{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.left-thumbnail{
+    width: 25rem;
+    height: 18rem;
+    background-color: rgb(255, 145, 0);
+    padding: 3.4rem 2rem 1rem 2rem;
+}
+
+.years{
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.edu-level{
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.edu-level-title{
+
+    margin-left: 3rem;
+    text-align: left;
+    font-size: 2.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.clg-name{
+
+    margin-left: 3rem;
+    text-align: left;
+    font-size: 1.5rem;
+
+}
+
+.edu-desc{
+
+    margin-left: 3rem;
+    text-align: left;
+    font-size: 2rem;
+
+}
+
+#the-date{
+
+    margin-top: 1.5rem;
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.right-content{
+
+    padding-top: 1.7rem;
+    width: 80rem;
+    background-color: rgb(242, 255, 183);
+    
+}
+
+.section4-div{
+
+    /*display: flex;
+    justify-content: center;
+    justify-content: space-evenly;*/
+    margin: 5rem auto;
+    padding: 2rem;
+    width: 90%;
+    height: 70rem;
+
+    text-align: center;
+    max-width: 110rem;
+    border-radius: .5rem;
+    /*background-color: rgb(255, 151, 65);*/
+    background-color: rgb(255, 237, 214);
+    padding-bottom: 6rem;
+}
+
+#contact-me{
+
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Name{
+    display: flex;
+    justify-content: center;
+}
+
+.lab-name{
+
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.for-email{
+    margin-top: 3rem;
+}
+
+#mail{
+    
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+.email{
+    margin-left: 2rem;
+    height: 2rem;
+    width: 46rem;
+}
+
+.for-addr{
+    margin-top: 3rem;
+}
+
+#address{
+    
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+#addr{
+    margin-left: 2rem;
+    height: 2rem;
+    width: 53rem;
+}
+
+
+/*CITY PROV POST*/
+.city-prov-post{
+
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#city, #postal, #province{
+
+    width: 15rem;
+    height: 2rem;
+}
+
+#ct, #pt, #pv{
+
+    font-size: 1.6rem;
+    padding-left: 2rem;
+}
+
+.radio-btn{
+    height: 10rem;
+    margin-top: 3rem;
+}
+
+#rad-lbl{
+
+    font-size: 2.5rem;
+}
+
+#rad-ques, #rad-com, #rad-hire{
+
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+#hidden-hire{
+
+    display: none;
+    font: 2em sans-serif;
+}
+
+#msg{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.7rem;
+}
+
+#message{
+
+    width: 60rem;
+
+}
+
+
+.btns{
+
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#bt-submit{
+    margin-left: 3rem;
+    width: 10rem;
+    height: 3rem;
+}
+
+#bt-reset{
+    width: 10rem;
+    height: 3rem;
+}
+
+
+
+
+@media (max-width:998px) {
+    
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (min-width:768px) and (max-width:870px){
+    
+    html{
+        font-size: 45%;
+    }
+}
+
+
+@media (min-width:500px) and (max-width: 767px){
+    
+    html{
+        font-size: 35%;
+    }
+}
+
+@media (min-width:150px) and (max-width:499px) {
+    
+    html{
+        font-size: 28%;
+    }
+    #about-me-para{
+
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.4rem;
+        color: rgb(87, 86, 85);
+    }
+}
+@media (min-width:150px) and (max-width:359px) {
+    
+    html{
+        font-size: 16%;
+    }
+    #about-me-para{
+
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.3rem;
+        color: rgb(87, 86, 85);
+    }
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
